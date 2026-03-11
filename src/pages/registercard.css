@@ -41,3 +41,25 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 480px) {
+
+  .container {
+    padding: 15px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 25px;
+    border-radius: 12px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .btnlogin button {
+    width: 80% !important;
+  }
+
+}
